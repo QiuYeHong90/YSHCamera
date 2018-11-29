@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'YSHCamera_Example' do
   pod 'YSHCamera', :path => '../'
-
+  
   target 'YSHCamera_Tests' do
     inherit! :search_paths
 
